@@ -1,7 +1,8 @@
 body {
+  background-color: #1B1A55;
 }
 .container {
-  background-color: rgb(255, 219, 172);
+  
   width: 600px;
   height: 600px;
   border-radius: 600px;
@@ -21,8 +22,8 @@ body {
   margin-top: 20%;
 }
 .eyelid-1 {
-  border-top: 4px solid black;
-  border-left: 4px solid black;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
   border-radius: 100% 0%;
   width: 100px;
   height: 100px;
@@ -100,8 +101,8 @@ body {
   box-shadow: -35px 20px rgba(255, 255, 255, 0.4);
 }
 .eyelid-1- {
-  border-top: 4px solid black;
-  border-left: 4px solid black;
+   border-top: 4px solid white;
+  border-left: 4px solid white;
   border-radius: 100% 0%;
   width: 100px;
   height: 100px;
@@ -109,6 +110,16 @@ body {
   margin-top: -20%;
   margin-left: 50%;
 }
+
+.eyes:hover .eyeLid {
+  transform: rotate(-45deg) rotateX(160deg);
+}
+
+.eyes:hover .lid {
+  transform: translateY(90px);
+}
+
+
 @keyframes close {
 }
 @media (min-width: 1440px) {
